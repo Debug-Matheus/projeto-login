@@ -28,7 +28,6 @@ Grandes Telas: acima de 1200px
     }
     div.campo> input{
         width: calc(100% - 44.36px);
-        
         transform: translateY(-10.65px);
     }
 }
