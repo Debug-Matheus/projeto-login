@@ -41,10 +41,10 @@ section#login > div#imagem{
     display: block;
     background-color: #5f2c82;
     background-size: cover;
-    background-image: url(../imagens/metal.jpg);
+    background-image: url(../imagens/metal3.jpg);
     background-repeat: no-repeat;
     height: 200px;
-    background-position: bottom ;   
+    background-position: right ;   
 }
 section#login > div#formulario{
     display: block;
@@ -78,13 +78,13 @@ div.campo > span{
 div.campo> input{
     background-color: #94cfcd;
     font-size: 1em;
-    width: calc(100% - 44.36px);
+    width: calc(100% - 45.36px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 1px;
 
-    transform: translateY(-10.65px);
+    transform: translateY(-12px);
 }
 div.campo > input:focus-within{
     background-color: white;
