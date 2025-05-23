@@ -14,6 +14,7 @@ Grandes Telas: acima de 1200px
     }
     section#login{
         width: 80vw;
+        height: 280px
     }
     
     section#login > div#imagem{
@@ -25,6 +26,11 @@ Grandes Telas: acima de 1200px
         float: right;
         width: 70%;
     }
+    div.campo> input{
+        width: calc(100% - 44.36px);
+        
+        transform: translateY(-10.65px);
+    }
 }
 @media screen and (min-width: 1025px){
     body{
@@ -32,6 +38,7 @@ Grandes Telas: acima de 1200px
     }
     section#login{
         width: 950px;
+        height: 350px;
     }
     section#login >div#imagem{
         float:right;
@@ -46,7 +53,9 @@ Grandes Telas: acima de 1200px
         font-size: 2em;
     }
     div#formulario > p{
-    font-size: 1.2em;
-}
+    font-size: 1em;
+    margin: 20px 0px;
+    }
+    
     
 }
