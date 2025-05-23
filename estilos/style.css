@@ -86,6 +86,9 @@ div.campo> input{
 
     transform: translateY(-13px);
 }
+div.campo> input::placeholder{
+    color: rgba(0, 0, 0, 0.514);
+}
 div.campo > input:focus-within{
     background-color: white;
     border: none;
